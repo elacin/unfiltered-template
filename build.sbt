@@ -2,7 +2,7 @@ organization := "templates"
 name         := "unfiltered"
 version      := "0.1-SNAPSHOT"
 scalaVersion := "2.11.7"
-scalacOptions ++= Seq("-deprecation", "-encoding", "UTF-8", "-feature", "-unchecked", "-Xfatal-warnings", "-Yno-adapted-args", "-Ywarn-dead-code", "-Ywarn-numeric-widen", "-Ywarn-value-discard", "-Xfuture", "-explaintypes" )
+scalacOptions ++= Seq("-deprecation", "-encoding", "UTF-8", "-feature", "-unchecked", "-Yno-adapted-args", "-Ywarn-dead-code", "-Ywarn-numeric-widen", "-Ywarn-value-discard", "-Xfuture", "-explaintypes" )
 
 val unfilteredVersion = "0.8.4"
 
